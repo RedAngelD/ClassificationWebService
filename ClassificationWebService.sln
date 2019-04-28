@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassificationWebService", "ClassificationWebService\ClassificationWebService.csproj", "{AF15DDC1-46AF-4196-8074-318A0E266CC5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TonalityClassifier", "..\TonalityClassifier\TonalityClassifier\TonalityClassifier.csproj", "{3C69D041-40B0-43F5-8E90-9E014AA55DF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF15DDC1-46AF-4196-8074-318A0E266CC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF15DDC1-46AF-4196-8074-318A0E266CC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF15DDC1-46AF-4196-8074-318A0E266CC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF15DDC1-46AF-4196-8074-318A0E266CC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C69D041-40B0-43F5-8E90-9E014AA55DF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C69D041-40B0-43F5-8E90-9E014AA55DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C69D041-40B0-43F5-8E90-9E014AA55DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C69D041-40B0-43F5-8E90-9E014AA55DF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1AA2DAEA-810C-4EC5-9F67-7F59F8B53983}
+	EndGlobalSection
+EndGlobal
